@@ -79,7 +79,7 @@ const Login = (props) => {
                     <i className="nc-icon nc-circle-09" />
                   </InputGroup.Text>
                 <FormControl
-                  placeholder="Username"
+                  placeholder="默认用户名: a1"
                   //aria-label="Username"
                   {...username}
                 />
@@ -90,7 +90,7 @@ const Login = (props) => {
                   </InputGroup.Text>
                 <FormControl
                   type="password"
-                  placeholder="Password"
+                  placeholder="默认密码: a1"
                   //aria-label="Password"
                   {...password}
                 />
